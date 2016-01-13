@@ -1,0 +1,40 @@
+ <header id="header">
+    <div class="container">
+        <a class="col-sm-3 col-xs-6 logo" href="#"><img src="/img/logo.svg" alt=""></a>
+
+        <div class="col-sm-3 col-xs-6 col-sm-push-6 text-right">
+            <h4>+8 067 0000000</h4>
+            <div class="row" data-bind="with:menu">
+                <div class="menu" data-bind="template:{html:html,data:data}">Menu</div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-xs-12 col-sm-pull-3">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+             </button>
+             </span>
+             </div><!-- /input-group -->
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet facilis minima cum in possimus, eligendi esse, sequi aperiam eos optio? Nulla minima reiciendis quod esse maiores earum, debitis sed est, nam explicabo deserunt quasi eaque tempore eum. Velit, voluptas, sit assumenda ea placeat totam non voluptatibus obcaecati temporibus ab aliquam. Molestias soluta obcaecati sed consequatur totam nesciunt temporibus, impedit provident nostrum, aliquam quam adipisci odit, magnam quo dicta nulla fuga repellendus laudantium. Fuga autem, minus nesciunt facere modi odit eveniet. Odio, reprehenderit, facilis. Aliquid quaerat laboriosam facere, odio, autem rerum assumenda neque harum eveniet qui molestiae ipsum cupiditate amet voluptatem.</p>
+
+    <div class="row" data-bind="with:gallery">
+        <div class="content" data-bind="template:{html:html,data:data}"></div>
+    </div>
+
+    <div id="Callback" class="modal fade" tabindex="-1" role="dialog" data-bind="with:currentState">
+      <div class="modal-dialog" data-bind="template:{html:html,data:data}">
+      </div>
+    </div>
+</div>
+
+<div id="map-google">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.177214274507!2d30.704674951388974!3d46.46499767402404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDI3JzU0LjAiTiAzMMKwNDInMjQuNyJF!5e0!3m2!1sen!2sua!4v1452075413645" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
